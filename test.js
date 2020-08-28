@@ -24,6 +24,12 @@ const college = {
 			course: "MCA"
 		},
 		{
+			name: "Zubair",
+			age: "32",
+			mobile: "9999999999",
+			course: "Msc"
+		},
+		{
 			name: "Zeeshan",
 			age: "30",
 			mobile: "1234567890",
@@ -32,6 +38,17 @@ const college = {
 	]
 }
 
-const {students:[, name]} = college
+const { students: [{ name: name1 }, students] } = college
 
-console.log(name)
+// console.log(name1, name2)
+// console.log(students)
+
+
+// const numbers = { goli: "Imran", center: "Zeeshan", defence: "Zubair" }
+
+
+// const numbers1 = ["imran", "zeeshan", "zubair"]
+
+// console.log(numbers[0])
+// console.log(numbers1[0])
+
