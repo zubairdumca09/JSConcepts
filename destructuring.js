@@ -10,9 +10,11 @@ let person = {
 }
 
 
-const { name, lastName, x } = person.name; // name will be undefined
+// const { name, lastName, x } = person.name; // name will be undefined
 const { name: { firstName, lastName, x: { y } } } = person;
-const { y } = person.name.x
+// const { y } = person.name.x
 
 
-console.log(lastName, x)
+// console.log(lastName, x)
+
+console.log(y);
