@@ -1,3 +1,12 @@
+`const x = 111
+const outer = (a) => (b) => {
+    console.log(a, b, x)
+}
+
+let fun = outer(10); //closure
+
+fun(11);`
+
 /* currying is a technique that takes n numbers of arguments and convert
 them into a single argument */
 
