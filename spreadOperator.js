@@ -47,14 +47,9 @@ const errors = {
 }
 //we have to change error key in age
 let changedErr = { ...errors, age: { ...errors.age, error: true } }
+
+
 console.log(changedErr)
-
-
-
-
-
-
-
 
 
 
