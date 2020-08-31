@@ -1,59 +1,50 @@
-a = 10;
-function test() {
-    console.log(this)
+// for (var i = 0; i < 10; i++) {
+//     setTimeout(() => {
+//         console.log(i)
+//     }, 0)
+// }
+
+//Sollution 1
+// function set(i) {
+//     setTimeout(() => {
+//         console.log(i)
+//     }, 0)
+// }
+
+// for (var i = 0; i < 10; i++) {
+//     set(i);
+// }
+
+//Sollution 2
+// for (var i = 0; i < 10; i++) {
+//     (function (i) {
+//         setTimeout(() => {
+//             console.log(i)
+//         }, 0)
+//     })(i)
+// }
+
+// function ax() {
+//     'use strict'
+//     a = 10
+//     console.log(a);
+//     if (true) {
+//         let a;
+//     }
+// }
+// ax();
+
+
+var a = 10;
+var b = 12;
+
+function a() {
+    let a;
 }
-test()
-const college = {
-    departments: [
 
-    ],
-    employees: {
-        faculties: [
+var c = function () {
+    var x = 1;
 
-        ],
-        accounts: [
-
-        ],
-        examCells: [
-
-        ],
-        admin: [
-
-        ]
-    },
-    students: [
-        {
-            name: "Imran",
-            age: "28",
-            mobile: "9999888676",
-            course: "MCA"
-        },
-        {
-            name: "Zubair",
-            age: "32",
-            mobile: "9999999999",
-            course: "Msc"
-        },
-        {
-            name: "Zeeshan",
-            age: "30",
-            mobile: "1234567890",
-            course: "B.tech"
-        }
-    ]
 }
 
-const { students: [{ name: name1 }, students] } = college
-
-// console.log(name1, name2)
-// console.log(students)
-
-
-// const numbers = { goli: "Imran", center: "Zeeshan", defence: "Zubair" }
-
-
-// const numbers1 = ["imran", "zeeshan", "zubair"]
-
-// console.log(numbers[0])
-// console.log(numbers1[0])
-
+a();
