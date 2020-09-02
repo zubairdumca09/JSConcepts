@@ -1,12 +1,12 @@
 let person = {
-    name: {
-        firstName: "Mohd",
-        lastName: "Imran",
-        x: {
-            y: 2
-        }
-    },
-    age: 1
+  name: {
+    firstName: "Mohd",
+    lastName: "Imran",
+    x: {
+      y: 2
+    }
+  },
+  age: 1
 }
 
 
@@ -16,3 +16,7 @@ const { y } = person.name.x
 
 
 console.log(lastName, x)
+
+
+
+
