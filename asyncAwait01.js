@@ -6,7 +6,7 @@ async function f(){
       
   let result = await promise;
     
-    alert(result)
+    console.log(result)
     
     }
 
@@ -24,12 +24,12 @@ async function f(){
 
 // asyncFun();
 
-const asyncFun = async () => {
-    const promise = new Promise(function (resolve, reject) {
-        setTimeout(function () { resolve("Imran") }, 3000)
-    })
-    const json = await promise;
-    console.log(json)
-}
+// const asyncFun = async () => {
+//     const promise = new Promise(function (resolve, reject) {
+//         setTimeout(function () { resolve("Imran") }, 3000)
+//     })
+//     const json = await promise;
+//     console.log(json)
+// }
 
-asyncFun();
+// asyncFun();

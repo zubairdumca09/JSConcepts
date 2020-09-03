@@ -4,7 +4,7 @@
 //     }, 0)
 // }
 
-//Sollution 1
+// Sollution 1
 // function set(i) {
 //     setTimeout(() => {
 //         console.log(i)
@@ -15,7 +15,7 @@
 //     set(i);
 // }
 
-//Sollution 2
+// Sollution 2
 // for (var i = 0; i < 10; i++) {
 //     (function (i) {
 //         setTimeout(() => {

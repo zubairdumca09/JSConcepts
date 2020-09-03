@@ -18,22 +18,22 @@ let person ={
   }
 
   
-  // function greetings(homeTown){
-  // return console.log(`Hello, my name is ${this.name} and I am ${this.age} years old I am from ${homeTown}`)  
-  // }
+  function greetings(homeTown){
+  return console.log(`Hello, my name is ${this.name} and I am ${this.age} years old I am from ${homeTown}`)  
+  }
   
   
-  // greetings.call(person, "Amroha")
-  // greetings.call(person1, "Jhansi")
+  greetings.call(person, "Amroha")
+  greetings.call(person1, "Jhansi")
   
-  // greetings.apply(person, ["Delhi"])
-  // greetings.apply(person1, ["Noida"])
+  greetings.apply(person, ["Delhi"])
+  greetings.apply(person1, ["Noida"])
   
-  // let printGreetings = greetings.bind(person, "Jamia");
-  // let printGreetings1 = greetings.bind(person1, "Noida Extn.");
+  let printGreetings = greetings.bind(person, "Jamia");
+  let printGreetings1 = greetings.bind(person1, "Noida Extn.");
   
-  // printGreetings();
-  // printGreetings1();
+  printGreetings();
+  printGreetings1();
   
   let printName = person.getName.bind(person)
 
