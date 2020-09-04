@@ -1,3 +1,5 @@
+//For loop tricks
+
 // for (var i = 0; i < 10; i++) {
 //     setTimeout(() => {
 //         console.log(i)
@@ -15,14 +17,14 @@
 //     set(i);
 // }
 
-// Sollution 2
-// for (var i = 0; i < 10; i++) {
-//     (function (i) {
-//         setTimeout(() => {
-//             console.log(i)
-//         }, 0)
-//     })(i)
-// }
+//Sollution 2
+for (var i = 0; i < 10; i++) {
+    (function (i) {
+        setTimeout(() => {
+            console.log(i)
+        }, 0)
+    })(i)
+}
 
 // function ax() {
 //     'use strict'
