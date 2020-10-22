@@ -21,5 +21,3 @@ console.log(y);
 console.log(lastName, x)
 
 
-
-
